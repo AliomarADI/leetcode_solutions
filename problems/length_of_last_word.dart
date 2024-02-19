@@ -11,3 +11,9 @@ class Solution {
     return list.last.replaceAll(' ', '').length;
   }
 }
+
+//* run example
+  // print(Solution().lengthOfLastWord('Hello World'));
+  // print(Solution().lengthOfLastWord('   fly me   to   the moon  '));
+  // print(Solution().lengthOfLastWord('luffy is still joyboy'));
+  // print(Solution().lengthOfLastWord('a '));
