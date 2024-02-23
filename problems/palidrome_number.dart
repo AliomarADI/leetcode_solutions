@@ -1,4 +1,4 @@
-class Solution {
+class PalindromNumber {
   bool isPalindrome(int x) {
     if (x < 0) {
       return false;
@@ -43,8 +43,8 @@ class Solution {
 
 
 //* run example
-  // print('121 is palidrome: ${Solution().isPalindrome(121)}');
-  // print('-121 is palidrome: ${Solution().isPalindrome(-121)}');
-  // print('10 is palidrome: ${Solution().isPalindrome(10)}');
-  // print('1001 is palidrome: ${Solution().isPalindrome(1001)}');
-  // print('10001 is palidrome: ${Solution().isPalindrome(10001)}');
+  // print('121 is palidrome: ${PalindromNumber().isPalindrome(121)}');
+  // print('-121 is palidrome: ${PalindromNumber().isPalindrome(-121)}');
+  // print('10 is palidrome: ${PalindromNumber().isPalindrome(10)}');
+  // print('1001 is palidrome: ${PalindromNumber().isPalindrome(1001)}');
+  // print('10001 is palidrome: ${PalindromNumber().isPalindrome(10001)}');

@@ -1,4 +1,4 @@
-class Solution {
+class FindMedianSortedArrays {
   double findMedianSortedArrays(List<int> nums1, List<int> nums2) {
     nums1 = nums1
       ..addAll(nums2)
@@ -16,6 +16,6 @@ class Solution {
   }
 
   //* run example
-  // print(Solution().findMedianSortedArrays([1, 3], [2]));
-  // print(Solution().findMedianSortedArrays([1, 2], [3, 4]));
+  // print(FindMedianSortedArrays().findMedianSortedArrays([1, 3], [2]));
+  // print(FindMedianSortedArrays().findMedianSortedArrays([1, 2], [3, 4]));
 }

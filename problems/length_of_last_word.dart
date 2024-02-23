@@ -1,4 +1,4 @@
-class Solution {
+class LengthOfLastWord {
   int lengthOfLastWord(String s) {
     final list = s.split(' ');
 
@@ -13,7 +13,7 @@ class Solution {
 }
 
 //* run example
-  // print(Solution().lengthOfLastWord('Hello World'));
-  // print(Solution().lengthOfLastWord('   fly me   to   the moon  '));
-  // print(Solution().lengthOfLastWord('luffy is still joyboy'));
-  // print(Solution().lengthOfLastWord('a '));
+  // print(LengthOfLastWord().lengthOfLastWord('Hello World'));
+  // print(LengthOfLastWord().lengthOfLastWord('   fly me   to   the moon  '));
+  // print(LengthOfLastWord().lengthOfLastWord('luffy is still joyboy'));
+  // print(LengthOfLastWord().lengthOfLastWord('a '));

@@ -1,4 +1,4 @@
-class Solution {
+class LongestCommonPrefix {
   String longestCommonPrefix(List<String> strs) {
     if (strs.isEmpty) {
       return '';
@@ -28,4 +28,4 @@ class Solution {
 }
 
 //* ex: 
-//  print(Solution().longestCommonPrefix(["flower", "flow", "flight"]));
+//  print(LongestCommonPrefix().longestCommonPrefix(["flower", "flow", "flight"]));

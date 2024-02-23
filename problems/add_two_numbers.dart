@@ -1,4 +1,4 @@
-class Solution {
+class AddTwoNumbers {
   ListNode? addTwoNumbers(ListNode? l1, ListNode? l2) {
     ListNode? dummyHead = ListNode(0);
     ListNode? current = dummyHead;
@@ -92,6 +92,6 @@ class ListNode {
   //   ),
   // );
 
-  // print(Solution().addTwoNumbers(ex11, ex12).toString());
-  // print(Solution().addTwoNumbers(ex21, ex22).toString());
-  // print(Solution().addTwoNumbers(ex31, ex32).toString());
+  // print(AddTwoNumbers().addTwoNumbers(ex11, ex12).toString());
+  // print(AddTwoNumbers().addTwoNumbers(ex21, ex22).toString());
+  // print(AddTwoNumbers().addTwoNumbers(ex31, ex32).toString());
